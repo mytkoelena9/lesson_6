@@ -1,0 +1,300 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap');
+@import url("https://uk.allfont.net/allfont.css?fonts=disneypark");
+
+
+body{
+	position: relative;
+width: 1920px;
+height: 3807px;
+background: #FFFFFF;
+}
+
+
+
+.title {
+position: absolute;
+width: 810px;
+height: 120px;
+left: calc(50% - 810px/2 - 210px);
+top: 190px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+
+display: flex;
+align-items: center;
+color: #1E212C;
+}
+
+.img-laptop{
+position: absolute;
+left: 17.97%;
+right: 39.84%;
+top: 10.56%;
+bottom: 79.98%;
+
+background: url(post.jpg);
+border-radius: 4px;
+margin: 24px;
+}
+
+
+
+.ferst-block{ 
+	position: absolute;
+width: 810px;
+height: 90px;
+left: 345px;
+top: 822px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+color: #1E212C;
+}
+.blok-two {
+	position: absolute;
+width: 810px;
+height: 182px;
+left: 345px;
+top: 936px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+
+color: #424551;
+}
+
+q {
+	width: 752px;
+height: 120px;
+
+
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+
+
+color: #1E212C;
+
+
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.block-tree {
+	position: absolute;
+width: 810px;
+height: 52px;
+left: 345px;
+top: 1334px;
+
+
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+
+
+
+
+
+color: #424551;
+}
+
+ul{
+	display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+width: 600px;
+height: 116px;
+left: 345px;
+top: 1410px;
+}
+li {display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 600px;
+height: 26px;}
+
+.block-four {
+position: absolute;
+width: 810px;
+height: 104px;
+left: 345px;
+top: 1550px;
+
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+
+
+color: #424551;}
+
+.hidden-block {
+display: block;
+margin-left: 450px;
+width: 800px;
+margin-bottom: 1600px;
+visibility: hidden;
+}
+
+.block {
+	box-shadow: 12px 10px 6px rgb(29, 27, 27);
+	display: block;
+	
+	background-color: #719bed;
+	margin-left: 350px;
+	width: 800px;
+	
+	padding: 50px;
+}
+
+.shit-i-know
+{ 
+	border:5px solid #582a61;
+	border-radius: 100px 100px 90px 5px;
+	box-shadow: 9px 13px 2px rgb(0, 0, 0);
+	padding: 30px;
+
+	font-family: 'DisneyPark', arial;
+	background-color: #ee6bac;
+	overflow:auto;
+	width: 700px;
+	font-size: 50px;
+	margin-bottom: 50px;
+ }
+
+.kris
+
+{padding-top: 30px;
+height: 400px;
+display: block;}
+
+
+	.img-kris {
+	display:inline-block;
+
+
+	border-radius: 50%;
+	width: 350px;
+	height: 350px;
+
+
+	outline: solid rgb(247, 239, 239);
+	box-shadow: 12px 20px 6px #111011;
+	border:5px solid  #dd3497;
+	margin-bottom: 200px;
+	margin-left: 50px;}
+
+
+	.kris-inst
+  {
+	display:inline-block;
+	font-size: 90px;
+	margin-left: 20px;
+	font-family: 'DisneyPark', arial;
+}
+
+.dima {
+	padding-top: 30px;
+	height: 400px;
+	margin-bottom: 20px;}
+
+
+	.img-dima {display:inline-block;
+		
+		
+		border-radius: 50%;
+		width: 350px;
+		height: 350px;
+		margin-left: 300px;
+		box-shadow: 12px 20px 6px #111011;
+		border:5px solid  #dd3497;
+		margin-bottom: -100px;
+		outline: solid rgb(247, 239, 239);	}
+
+		.dima-inst {display:inline-block;
+		font-family: 'DisneyPark', arial;
+		
+		font-size: 90px;
+		margin-left: 150px;
+		margin-bottom: 100px;}
+
+
+
+.content-block{
+	display: block;
+	padding: 20px;
+	color: #fff;
+	
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+	font-weight: 400;
+
+	background-color: #ee6bac;
+	
+	margin-left: 50px;
+	
+
+	font-size: 25px;
+	line-height: 1.2;
+	text-shadow: 5px 2px 5px #000;
+
+	text-align:right;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	height: 200px;
+	max-width: 600px;
+
+	overflow: scroll;
+	border:8px double #111011;
+	
+	box-shadow:inset  12px 20px 6px rgb(241, 241, 241);}
+
+
+		.logo{display: inline-block;
+	
+		border-radius: 50%;
+		width: 150px;
+		height: 150px;
+		margin-right: 900px;
+		opacity:0.9;
+		
+		background-color: #fdfffb;
+		padding: 5px;
+	
+	
+		box-shadow: 0 15px 0 #000;
+		transition: all 0.3s ease 0s;}
+
+			.logo:hover{
+			margin-top: 3px;
+			box-shadow: 0 2px 0 #000;}
